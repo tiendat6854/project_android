@@ -11,12 +11,12 @@ class MainActivity : AppCompatActivity(), LoginInterface {
         setContentView(R.layout.activity_main)
 
         btn_login.setOnClickListener {
-            val loginViewModel = LoginViewModel(this)
+            val loginPresenter = LoginPresenter(this)
             val strEmail: String = edt_email.getText().toString().trim()
             val strPassword: String = edt_password.getText().toString().trim()
 
             val user = User(strEmail, strPassword)
-            loginViewModel.login(user)
+            loginPresenter.login(user)
         }
     }
 
