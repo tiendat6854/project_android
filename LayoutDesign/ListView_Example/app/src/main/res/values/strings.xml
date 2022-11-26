@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ListView_Example</string>
+    <string-array name="arrQuocGia">
+        <item>Lào</item>
+        <item>Thái Lan</item>
+        <item>Campuchia</item>
+        <item>Nhật Bản</item>
+        <item>Hàn Quốc</item>
+        <item>Trung Quốc</item>
+        <item>Tây Ban Nha</item>
+        <item>Bồ Đào Nha</item>
+        <item>Anh</item>
+        <item>Đức</item>
+        <item>Mỹ</item>
+        <item>Ba Lan</item>
+        <item>Hà Lan</item>
+        <item>Qatar</item>
+        <item>Thổ Nhĩ Kì</item>
+        <item>Bỉ</item>
+        <item>Ấn Độ</item>
+    </string-array>
+</resources>
